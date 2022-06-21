@@ -1,6 +1,7 @@
+
+
 import React from 'react'
 import { Container, Row, Col, Table } from "react-bootstrap";
-import { useNavigate, BrowserRouter, Navigate } from "react-router-dom";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee, faExclamationCircle, faMagicWandSparkles, faQuestionCircle, faSchool, faUtensils } from '@fortawesome/free-solid-svg-icons'
@@ -19,16 +20,7 @@ import { faHome } from '@fortawesome/free-solid-svg-icons';
 import { faMapMarkedAlt } from '@fortawesome/free-solid-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';  
 
-  const RecruitmentGuide = () => {
-    const [product, setProduct] = useState(null);
-    const getProducts = async() => {
-      let url = `https://my-json-server.typicode.com/IncheonPolytechnicSchool/welcomeschool/RecruitmentGuide`;
-      let response = await fetch(url);
-      let data = await response.json();
-      console.log(data);
-      setProduct(data);
-  };
-
+const RecruitmentGuide = () => {
   return (
       <Container>
           <Row>
@@ -378,6 +370,5 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons';
       </Container>
   )
 }
-
 
 export default RecruitmentGuide
