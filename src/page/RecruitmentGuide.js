@@ -134,7 +134,6 @@ const RecruitmentGuide = () => {
                  </thead>
                 <tbody>
                     <tr>
-                        <td rowSpan={5}>가</td>
                         <td>2022학년도 인천광역시 관내 <a name="tag26"></a><a href="#tag16">일반고</a> 등의 2학년 재학생 및 2023학년도 3학년 재학생</td>
                     </tr>
                     <tr>
@@ -148,14 +147,6 @@ const RecruitmentGuide = () => {
                     </tr>
                     <tr>
                         <td>(2023학년도 3학년 재학생으로 타기관에 위탁중인 자는 입교 불가)</td>
-                    </tr>
-                    <tr>
-                        <td>나</td>
-                        <td>상급학교 비진학 예정자로 학교장의 추천을 받은 직업교육 희망자</td>
-                    </tr>
-                    <tr>
-                        <td>다</td>
-                        <td>다음의 결격사유가 없는 자: 정신질환자, 알코올 중독자</td>
                     </tr>
                 </tbody>
   </Table>
