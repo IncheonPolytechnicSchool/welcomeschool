@@ -12,7 +12,6 @@ import { faSchoolCircleCheck } from '@fortawesome/free-solid-svg-icons';
 
 
 const ProductDetail = () => {
-  const navigate = useNavigate();
   let { id } = useParams();
   const [product, setProduct] = useState(null);
   const getProductDetail = async() => {
@@ -26,6 +25,8 @@ const ProductDetail = () => {
 useEffect(() => {
   getProductDetail();
 }, []);
+
+
 
 
   return (

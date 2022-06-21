@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Row, Col, Table } from "react-bootstrap";
+import { useNavigate, BrowserRouter, Navigate } from "react-router-dom";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee, faExclamationCircle, faMagicWandSparkles, faQuestionCircle, faSchool, faUtensils } from '@fortawesome/free-solid-svg-icons'
@@ -18,14 +19,16 @@ import { faHome } from '@fortawesome/free-solid-svg-icons';
 import { faMapMarkedAlt } from '@fortawesome/free-solid-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';  
 
-const getProducts = async () => {
-    let url =  `https://my-json-server.typicode.com/IncheonPolytechnicSchool/welcomeschool/products?q=${searchQuery}` ;
-    let response = await fetch(url) ;
-    let data = await response.json() ;
-    setProductList(data)
+  const RecruitmentGuide = () => {
+    const [guide, setGuide] = useState(null);
+    const getRecruitmentGuide = async() => {
+      let url = `https://my-json-server.typicode.com/IncheonPolytechnicSchool/welcomeschool/RecruitmentGuide`;
+      let response = await fetch(url);
+      let data = await response.json();
+      console.log(data);
+      setProduct(data);
   };
 
-const RecruitmentGuide = () => {
   return (
       <Container>
           <Row>
@@ -375,5 +378,6 @@ const RecruitmentGuide = () => {
       </Container>
   )
 }
+
 
 export default RecruitmentGuide
