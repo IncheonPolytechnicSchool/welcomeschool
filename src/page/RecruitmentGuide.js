@@ -18,6 +18,13 @@ import { faHome } from '@fortawesome/free-solid-svg-icons';
 import { faMapMarkedAlt } from '@fortawesome/free-solid-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';  
 
+const getProducts = async () => {
+    let url =  `https://my-json-server.typicode.com/IncheonPolytechnicSchool/welcomeschool/products?q=${searchQuery}` ;
+    let response = await fetch(url) ;
+    let data = await response.json() ;
+    setProductList(data)
+  };
+
 const RecruitmentGuide = () => {
   return (
       <Container>
