@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
 import ReactGA from 'react-ga';
 
-ReactGA.initialize("G-ZXDF47Y1YM");
+ReactGA.initialize("UA-207545984-1");
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
