@@ -45,7 +45,7 @@ useEffect(() => {
   <tbody>
   <tr>
       <td><FontAwesomeIcon icon={faSchoolCircleCheck} /><a href={product?.table0_1_0_href}> {product?.table0_1_0}</a></td>
-      <td><Link to={product?.table0_1_1_Route}>{product?.table0_1_1}</Link></td>
+      <td><Link to={product?.table0_1_1_Link}>{product?.table0_1_1}</Link></td>
     </tr>
     <tr>
       <td><FontAwesomeIcon icon={faVideo} /> 유튜브</td>
