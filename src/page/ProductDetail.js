@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Row, Col, Table, Button, Carousel } from "react-bootstrap";
 import { useParams } from "react-router-dom";
-import { useNavigate, BrowserRouter, Navigate } from "react-router-dom";
+import { useNavigate, BrowserRouter, Navigate, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -45,7 +45,7 @@ useEffect(() => {
   <tbody>
   <tr>
       <td><FontAwesomeIcon icon={faSchoolCircleCheck} /><a href={product?.table0_1_0_href}> {product?.table0_1_0}</a></td>
-      <td><Navigate to={product?.table0_1_1_Route}>{product?.table0_1_1}</Navigate></td>
+      <td><Link to={product?.table0_1_1_Route}>{product?.table0_1_1}</Link></td>
     </tr>
     <tr>
       <td><FontAwesomeIcon icon={faVideo} /> 유튜브</td>

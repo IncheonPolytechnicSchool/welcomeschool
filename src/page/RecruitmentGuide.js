@@ -20,8 +20,8 @@ import { faMapMarkedAlt } from '@fortawesome/free-solid-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';  
 
   const RecruitmentGuide = () => {
-    const [guide, setGuide] = useState(null);
-    const getRecruitmentGuide = async() => {
+    const [product, setProduct] = useState(null);
+    const getProducts = async() => {
       let url = `https://my-json-server.typicode.com/IncheonPolytechnicSchool/welcomeschool/RecruitmentGuide`;
       let response = await fetch(url);
       let data = await response.json();
