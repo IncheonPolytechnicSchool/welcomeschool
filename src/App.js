@@ -22,8 +22,8 @@ function App() {
   }, [authenticate]);
   return (
     <div>
-      <Navbar />
-      <Routes>
+    <Navbar />
+    <Routes>
         <Route path="/" element={<ProductAll />} />
         <Route path="/login" element={<Login setAuthenticate = {setAuthenticate}/>} />
         <Route path="/product/:id" element={<ProductDetail />} />
@@ -34,9 +34,8 @@ function App() {
         <Route path="/food" element={<Food/>} />
         <Route path="/test" element={<Test/>} />
         <Route path="/gym" element={<Gym/>} />
-
-      </Routes>
-</div>
+    </Routes>
+  </div>
   );
 }
 
