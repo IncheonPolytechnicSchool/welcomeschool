@@ -117,7 +117,7 @@ const RecruitmentGuide = () => {
                         <td>20</td>
                     </tr>
                     <tr className="SUM">
-                        <td colSpan={2}><FontAwesomeIcon icon={faComputer}/>계</td>
+                        <td>계</td>
                         <td>10</td>
                         <td>200</td>
                     </tr>
