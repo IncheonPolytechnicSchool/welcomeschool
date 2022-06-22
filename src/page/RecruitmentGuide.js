@@ -176,7 +176,7 @@ const RecruitmentGuide = () => {
           <br></br>
           <Row>
               <Col>
-              <h1><a name="tag30"></a><a href="#tag0">#모집일정(일반전형)</a></h1>
+              <h1><a name="tag30"></a><a href="#tag0"><FontAwesomeIcon icon={faFile} />모집일정(일반전형)</a></h1>
               <Table striped bordered hover className="vertical">
                  <thead className="tHead">
                     <tr>
