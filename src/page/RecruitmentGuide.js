@@ -39,7 +39,7 @@ const RecruitmentGuide = () => {
                         <td><a href="#tag2">지원자격</a></td>
                     </tr>
                     <tr>
-                        <td><a href="#tag3">위탁교육기간</a></td>
+                        <td><a href="#tag3"><FontAwesomeIcon icon={faCalendar} />위탁교육기간</a></td>
                     </tr>
                     <tr>
                         <td>모집지역</td>
@@ -156,6 +156,7 @@ const RecruitmentGuide = () => {
               </Table>
               </Col>
             </Row>
+            <br></br>
             <Row>
               <Col>
               <Table striped bordered hover className="vertical">
