@@ -117,7 +117,7 @@ const RecruitmentGuide = () => {
                         <td>20</td>
                     </tr>
                     <tr className="SUM">
-                        <td>계</td>
+                        <td colSpan={2}>계</td>
                         <td>10</td>
                         <td>200</td>
                     </tr>
@@ -146,10 +146,11 @@ const RecruitmentGuide = () => {
                         <td>2022학년도 <a href="#tag20">대안학교</a> 2학년 재학생</td>
                     </tr>
                     <tr>
-                        <td>2022학년도 <a href="#tag22">대안위탁학교</a> 2학년 재학생으로 위탁 종료 예정인 자</td>
-                    </tr>
-                    <tr>
-                        <td>(2023학년도 3학년 재학생으로 타기관에 위탁중인 자는 입교 불가)</td>
+                        <td>
+                            2022학년도 <a href="#tag22">대안위탁학교</a> 2학년 재학생으로 위탁 종료 예정인 자
+                            <br></br>
+                            (2023학년도 3학년 재학생으로 타기관에 위탁중인 자는 입교 불가)
+                        </td>
                     </tr>
                 </tbody>
   </Table>
