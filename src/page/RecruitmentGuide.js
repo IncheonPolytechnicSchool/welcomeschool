@@ -5,8 +5,6 @@ import { Container, Row, Col, Table } from "react-bootstrap";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee, faExclamationCircle, faMagicWandSparkles, faQuestionCircle, faSchool, faUtensils } from '@fortawesome/free-solid-svg-icons'
-import { faCookie } from '@fortawesome/free-solid-svg-icons'
-import { faFaceSmile } from '@fortawesome/free-solid-svg-icons'
 import { faCamera } from '@fortawesome/free-solid-svg-icons'
 import { faPaintBrush } from '@fortawesome/free-solid-svg-icons';
 import { faDog } from '@fortawesome/free-solid-svg-icons';
@@ -35,7 +33,7 @@ const RecruitmentGuide = () => {
                 <tbody>
                     <tr>
                         <td rowSpan={5}>2023학년도<br></br>인천산업정보학교<br></br>신입생 모집 요강</td>
-                    <td><FontAwesomeIcon icon={faUserGroup} /><a href="#tag1">모집학과 및 정원</a></td>
+                    <td><a href="#tag1"><FontAwesomeIcon icon={faUserGroup} />모집학과 및 정원</a></td>
                     </tr>
                     <tr>
                         <td><a href="#tag2">지원자격</a></td>
@@ -54,10 +52,10 @@ const RecruitmentGuide = () => {
                         <td>전형일정</td>
                     </tr>
                     <tr>
-                        <td><FontAwesomeIcon icon={faExclamationCircle} /> 신입생 전형 시 유의사항</td>
+                        <td><FontAwesomeIcon icon={faExclamationCircle} />신입생 전형 시 유의사항</td>
                     </tr>
                     <tr>
-                        <td><a href ="#tag40"> <FontAwesomeIcon icon={faQuestionCircle} />신입생 전형에 대한 문의</a></td>
+                        <td><a href ="#tag40"><FontAwesomeIcon icon={faQuestionCircle} />신입생 전형에 대한 문의</a></td>
                     </tr>
                     <tr>
                         <td colSpan={2}><a href="#tag50"><FontAwesomeIcon icon={faSchool} />지원자격 학교명단</a></td> 
@@ -70,7 +68,7 @@ const RecruitmentGuide = () => {
           <Row>
               <Col>
               <a name="tag1"></a> 
-              <h1><a href="#tag0">#모집학과 및 정원</a></h1>
+              <h1><a href="#tag0"><FontAwesomeIcon icon={faUserGroup} />모집학과 및 정원</a></h1>
               <Table striped bordered hover className="vertical">
                  <thead className="tHead">
                     <tr>
@@ -82,7 +80,7 @@ const RecruitmentGuide = () => {
                  </thead>
                 <tbody>
                     <tr>
-                        <td rowSpan={2}><a href="/product/2">호텔조리과</a></td>
+                        <td rowSpan={2}>호텔조리과</td>
                         <td><FontAwesomeIcon icon={faUtensils} /> 마스터쉐프과정</td>
                         <td>1</td>
                         <td>20</td>
