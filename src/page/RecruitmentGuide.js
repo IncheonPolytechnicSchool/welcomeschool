@@ -153,23 +153,23 @@ const RecruitmentGuide = () => {
                         </td>
                     </tr>
                 </tbody>
-  </Table>
+              </Table>
               </Col>
+            </Row>
+            <Row>
+              <Col>
               <table striped bordered hover className="vertical">
-              <thead className="tHead">
+                <thead className="tHead">
                     <tr>
-                     <th colSpan={2}><h1><FontAwesomeIcon icon={faCalendar}/>위탁교육기간</h1></th>
+                     <th><a name="tag40"></a> <a href="#tag0"><h1><FontAwesomeIcon icon={faCalendar}/>위탁교육기간</h1></a></th>
                     </tr>
                  </thead>
                 <tbody>
                     <tr>
-                        <td>1년 이내</td>
-                        <td>2023년 3월 ~ 2024년 1월</td>
+                        <td>1년 이내(2023년 3월 ~ 2024년 1월)</td>
                     </tr>
                 </tbody>
-
               </table>
-              <Col>
               </Col>
           </Row>
           <br></br>
