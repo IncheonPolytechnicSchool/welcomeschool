@@ -36,7 +36,12 @@ cursor: pointer;
   color: black;
   background-color: beige;
 }
-  
+
+.SUM{
+  color: black;
+  background-color: skyblue;
+}
+
 
 .card:hover{
   transform: scale(1.1);

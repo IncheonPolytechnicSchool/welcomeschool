@@ -74,7 +74,7 @@ const RecruitmentGuide = () => {
                     <tr>
                      <th colSpan={2}>학과명</th>
                      <th>학급수</th>
-                     <th>모집인원</th>
+                     <th>모집정원</th>
                      <th>비고</th>
                     </tr>
                  </thead>
@@ -116,6 +116,11 @@ const RecruitmentGuide = () => {
                         <td>1</td>
                         <td>20</td>
                     </tr>
+                    <tr className="SUM">
+                        <td colSpan={2}><FontAwesomeIcon icon={faComputer}/>계</td>
+                        <td>10</td>
+                        <td>200</td>
+                    </tr>
                 </tbody>
   </Table>
               </Col>
@@ -127,7 +132,7 @@ const RecruitmentGuide = () => {
               <Table striped bordered hover className="vertical">
                  <thead className="tHead">
                     <tr>
-                     <th colSpan={2}>일반전형&추가전형</th>
+                     <th colSpan={2}>[일반전형] & [추가전형]</th>
                     </tr>
                  </thead>
                 <tbody>
