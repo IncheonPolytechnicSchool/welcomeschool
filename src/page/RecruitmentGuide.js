@@ -35,7 +35,7 @@ const RecruitmentGuide = () => {
                 <tbody>
                     <tr>
                         <td rowSpan={5}>2023학년도<br></br>인천산업정보학교<br></br>신입생 모집 요강</td>
-                        <td><a href="#tag1">모집학과 및 정원</a></td>
+                    <td><FontAwesomeIcon icon={faUserGroup} /><a href="#tag1">모집학과 및 정원</a></td>
                     </tr>
                     <tr>
                         <td><a href="#tag2">지원자격</a></td>
