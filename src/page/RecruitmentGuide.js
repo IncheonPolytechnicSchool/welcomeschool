@@ -84,7 +84,7 @@ const RecruitmentGuide = () => {
                         <td><FontAwesomeIcon icon={faUtensils} /> 마스터쉐프과정</td>
                         <td>1</td>
                         <td>20</td>
-                        <td rowSpan={9}>남·녀<br></br>공학</td>
+                        <td rowSpan={10}>남·녀<br></br>공학</td>
                     </tr>
                     <tr>
                         <td><FontAwesomeIcon icon={faCoffee} /> 카페베이커리과정</td>
