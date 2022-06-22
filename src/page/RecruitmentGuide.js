@@ -4,7 +4,7 @@ import React from 'react'
 import { Container, Row, Col, Table } from "react-bootstrap";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCalendar, faCoffee, faExclamationCircle, faMagicWandSparkles, faQuestionCircle, faSchool, faUtensils } from '@fortawesome/free-solid-svg-icons'
+import { faCalendar, faCoffee, faExclamationCircle, faFile, faMagicWandSparkles, faQuestionCircle, faSchool, faUtensils } from '@fortawesome/free-solid-svg-icons'
 import { faCamera } from '@fortawesome/free-solid-svg-icons'
 import { faPaintBrush } from '@fortawesome/free-solid-svg-icons';
 import { faDog } from '@fortawesome/free-solid-svg-icons';
@@ -36,7 +36,7 @@ const RecruitmentGuide = () => {
                     <td><a href="#tag1"><FontAwesomeIcon icon={faUserGroup} />모집학과 및 정원</a></td>
                     </tr>
                     <tr>
-                        <td><a href="#tag2">지원자격</a></td>
+                        <td><a href="#tag2"><FontAwesomeIcon icon={faFile} />지원자격</a></td>
                     </tr>
                     <tr>
                         <td><a href="#tag3"><FontAwesomeIcon icon={faCalendar} />위탁교육기간</a></td>
