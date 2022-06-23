@@ -27,7 +27,7 @@ const RecruitmentGuide = () => {
               <Table striped bordered hover className="vertical">
                  <thead className="tHead">
                     <tr> 
-                     <th colSpan={2}> 페이지 구성</th>
+                     <th colSpan={5}> 페이지 구성</th>
                     </tr>
                  </thead>
                 <tbody>
@@ -57,6 +57,16 @@ const RecruitmentGuide = () => {
                     <tr>
                         <td>전형절차</td>
                     </tr>
+                    <tr>
+                        <td rowSpan={3}>추가전형</td>
+                        <td>전형일정</td>
+                    </tr>
+                    <tr>
+                        <td>전형방법</td>
+                    </tr>
+                    <tr>
+                        <td>전형절차</td>
+                    </tr>
 
 
                     <tr>
@@ -64,13 +74,13 @@ const RecruitmentGuide = () => {
                         <td>전형일정</td>
                     </tr>
                     <tr>
-                        <td><FontAwesomeIcon icon={faExclamationCircle} />신입생 전형 시 유의사항</td>
+                        <td colSpan={4}><FontAwesomeIcon icon={faExclamationCircle} />신입생 전형 시 유의사항</td>
                     </tr>
                     <tr>
-                        <td><a href ="#tag40"><FontAwesomeIcon icon={faQuestionCircle} />신입생 전형에 대한 문의</a></td>
+                        <td colSpan={5}><a href ="#tag40"><FontAwesomeIcon icon={faQuestionCircle} />신입생 전형에 대한 문의</a></td>
                     </tr>
                     <tr>
-                        <td colSpan={2}><a href="#tag50"><FontAwesomeIcon icon={faSchool} />지원자격 학교명단</a></td> 
+                        <td colSpan={5}><a href="#tag50"><FontAwesomeIcon icon={faSchool} />지원자격 학교명단</a></td> 
                     </tr>
                 </tbody>
   </Table>
