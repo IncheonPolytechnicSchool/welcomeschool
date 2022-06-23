@@ -267,16 +267,20 @@ const RecruitmentGuide = () => {
                     </tr>
                     <tr>
                         <td rowSpan={3}>
-                            <a href="/test">2022-11-23.(수)
+                            <a href="/test">2022-11-23.(수)</a>
                                 <br></br>
                                 13:00
                                 <br></br>
                                 이후
-                            </a>
                         </td>
                         <td rowSpan={3}>
                             면접<br></br>대상자<br></br>발표
                         </td>
+                        <td>
+                            13:00 이후 아래 여러가지 방법으로 공지    
+                        </td>
+                    </tr>
+                    <tr>
                         <td colSpan={2}>
                             <a href="http://sanup.icesc.kr">본교 홈페이지 <FontAwesomeIcon icon={faExternalLink} /></a> 게시
                         </td>
