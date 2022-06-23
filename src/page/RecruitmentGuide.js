@@ -45,10 +45,10 @@ const RecruitmentGuide = () => {
                         <td colSpan={3}><a href="#tag4"><FontAwesomeIcon icon={faMapMarked} />모집지역</a></td>
                     </tr>
                     <tr>
-                        <td rowSpan={6}>전형일정 및 전형방법</td>
+                        <td rowSpan={7}>전형일정<br></br>및<br></br>전형방법</td>
                     </tr>
                     <tr>
-                        <td rowSpan={3}>일반전형</td>
+                        <td rowSpan={3}>일반<br></br>전형</td>
                         <td>전형일정</td>
                     </tr>
                     <tr>
@@ -58,7 +58,7 @@ const RecruitmentGuide = () => {
                         <td>전형절차</td>
                     </tr>
                     <tr>
-                        <td rowSpan={3}>추가전형</td>
+                        <td rowSpan={3}>추가<br></br>전형</td>
                         <td>전형일정</td>
                     </tr>
                     <tr>
