@@ -225,21 +225,21 @@ const RecruitmentGuide = () => {
                  </thead>
                 <tbody>
                     <tr>
-                        <td rowSpan={4}>
-                            <a href="/test">2022-10-04. (화)</a>
+                        <td rowSpan={5}>
+                            <a href="/test">2022-10-04.(화)</a>
                             <br></br>
                             09:00
                             <br></br>
                             ~
                             <br></br>
-                            <a href="/test">2022-11-18. (금)</a>
+                            <a href="/test">2022-11-18.(금)</a>
                             <br></br>
                             16:40
                         </td>
-                        <td rowSpan={4}>
+                        <td rowSpan={5}>
                             원서접수
                        </td>
-                       <td colSpan={2}>20222-11-22. (화)
+                       <td colSpan={2}>20222-11-22.(화) 16:40
                         <br></br>
                         까지 도착분에 한함.
                        </td>
