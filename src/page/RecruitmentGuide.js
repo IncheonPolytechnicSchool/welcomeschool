@@ -32,7 +32,7 @@ const RecruitmentGuide = () => {
                  </thead>
                 <tbody>
                     <tr>
-                        <td rowSpan={10}>2023학년도<br></br>인천산업정보학교<br></br>신입생 모집 요강</td>
+                        <td rowSpan={11}>2023학년도<br></br>인천산업정보학교<br></br>신입생 모집 요강</td>
                     <td colSpan={3}><a href="#tag1"><FontAwesomeIcon icon={faUserGroup} />모집학과 및 정원</a></td>
                     </tr>
                     <tr>
@@ -45,7 +45,7 @@ const RecruitmentGuide = () => {
                         <td colSpan={3}><a href="#tag4"><FontAwesomeIcon icon={faMapMarked} />모집지역</a></td>
                     </tr>
                     <tr>
-                        <td rowSpan={6}>전형일정<br></br>및<br></br>전형방법</td>
+                        <td rowSpan={7}>전형일정<br></br>및<br></br>전형방법</td>
                     </tr>
                     <tr>
                         <td rowSpan={3}>일반<br></br>전형</td>
@@ -69,7 +69,7 @@ const RecruitmentGuide = () => {
                     </tr>
                     <tr>
                         <td rowSpan={3}>지원자 유의사항</td>
-                        <td>전형일정</td>
+                        <td colSpan={3}>전형일정</td>
                     </tr>
                     <tr>
                         <td colSpan={3}><FontAwesomeIcon icon={faExclamationCircle} />신입생 전형 시 유의사항</td>
