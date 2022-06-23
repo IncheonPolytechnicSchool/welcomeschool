@@ -49,7 +49,7 @@ const RecruitmentGuide = () => {
                     </tr>
                     <tr>
                         <td rowSpan={3}>일반<br></br>전형</td>
-                        <td>전형일정</td>
+                        <td><a href="#tag5">전형일정</a></td>
                     </tr>
                     <tr>
                         <td>전형방법</td>
@@ -214,7 +214,7 @@ const RecruitmentGuide = () => {
           <br></br>
           <Row>
               <Col>
-              <h1><a name="tag30"></a><a href="#tag0"><FontAwesomeIcon icon={faCalendar} />전형일정(일반전형)</a></h1>
+              <h1><a name="tag5"></a><a href="#tag0"><FontAwesomeIcon icon={faCalendar} />전형일정(일반전형)</a></h1>
               <Table striped bordered hover className="vertical">
                  <thead className="tHead">
                     <tr>
@@ -226,11 +226,15 @@ const RecruitmentGuide = () => {
                 <tbody>
                     <tr>
                         <td rowSpan={4}>
-                            <a href="/test">2022-10-04(화)</a>
+                            <a href="/test">2022-10-04. (화)</a>
+                            <br></br>
+                            09:00
                             <br></br>
                             ~
                             <br></br>
-                            <a href="/test">2022-11-18(금)</a>
+                            <a href="/test">2022-11-18. (금)</a>
+                            <br></br>
+                            16:40
                         </td>
                         <td rowSpan={4}>
                             원서접수
