@@ -4,7 +4,7 @@ import React from 'react'
 import { Container, Row, Col, Table } from "react-bootstrap";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCalendar, faCoffee, faExclamationCircle, faFile, faMagicWandSparkles, faQuestionCircle, faSchool, faUtensils } from '@fortawesome/free-solid-svg-icons'
+import { faCalendar, faCoffee, faExclamationCircle, faFile, faMagicWandSparkles, faMapMarked, faQuestionCircle, faSchool, faUtensils } from '@fortawesome/free-solid-svg-icons'
 import { faCamera } from '@fortawesome/free-solid-svg-icons'
 import { faPaintBrush } from '@fortawesome/free-solid-svg-icons';
 import { faDog } from '@fortawesome/free-solid-svg-icons';
@@ -42,7 +42,7 @@ const RecruitmentGuide = () => {
                         <td><a href="#tag3"><FontAwesomeIcon icon={faCalendar} />위탁교육기간</a></td>
                     </tr>
                     <tr>
-                        <td>모집지역</td>
+                        <td><a href="#tag4"><FontAwesomeIcon icon={faMapMarked} />모집지역</a></td>
                     </tr>
                     <tr>
                         <td>전형일정(일반전형)</td>
@@ -128,7 +128,7 @@ const RecruitmentGuide = () => {
           <br></br>
           <Row>
               <Col>
-              <h1><a name="tag2"></a> <a href="#tag0">#지원자격</a></h1>
+              <h1><a name="tag2"></a> <a href="#tag0"><FontAwesomeIcon icon={faFile}/> 지원자격</a></h1>
               <Table striped bordered hover className="vertical">
                  <thead className="tHead">
                     <tr>
@@ -175,8 +175,26 @@ const RecruitmentGuide = () => {
           </Row>
           <br></br>
           <Row>
+            <Col>
+            <h1><a name="tag4"></a><a href="#tag0"><FontAwesomeIcon icon={faMapMarked}/>모집지역</a></h1>
+            <Table striped bordered hover className="vertical">
+                <thead className="tHead">
+                    <tr>
+                     <th>[일반전형] & [추가전형]</th>
+                    </tr>
+                 </thead>
+                <tbody>
+                    <tr>
+                        <td>인천광역시</td>
+                    </tr>
+                </tbody>
+              </Table>
+            </Col>
+          </Row>
+          <br></br>
+          <Row>
               <Col>
-              <h1><a name="tag30"></a><a href="#tag0"><FontAwesomeIcon icon={faFile} />모집일정(일반전형)</a></h1>
+              <h1><a name="tag30"></a><a href="#tag0"><FontAwesomeIcon icon={faCalendar} />모집일정(일반전형)</a></h1>
               <Table striped bordered hover className="vertical">
                  <thead className="tHead">
                     <tr>
