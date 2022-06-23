@@ -239,6 +239,12 @@ const RecruitmentGuide = () => {
                         <td rowSpan={4}>
                             원서접수
                        </td>
+                       <td colSpan={2}>20222-11-22. (화)
+                        <br></br>
+                        까지 도착분에 한함.
+                       </td>
+                    </tr>
+                    <tr>
                        <td><FontAwesomeIcon icon={faEnvelope}/> 이메일</td>
                        <td>rlekfla904@ice.go.kr</td>
                     </tr>
@@ -247,7 +253,7 @@ const RecruitmentGuide = () => {
                         <td>032-765-5474</td>
                     </tr>
                     <tr>
-                        <td><FontAwesomeIcon icon={faEnvelopesBulk} /> 인편, 우편</td>
+                        <td><FontAwesomeIcon icon={faEnvelopesBulk} /> 우편</td>
                         <td>인천 동구 금창로31 신입생업무담당자앞</td>
                     </tr>
                     <tr>
