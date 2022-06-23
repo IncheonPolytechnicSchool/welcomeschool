@@ -226,13 +226,13 @@ const RecruitmentGuide = () => {
                 <tbody>
                     <tr>
                         <td rowSpan={5}>
-                            <a href="/test">2022-10-04.(화)</a>
+                            <a href="/test">2022-10-11.(화)</a>
                             <br></br>
                             09:00
                             <br></br>
                             ~
                             <br></br>
-                            <a href="/test">2022-11-18.(금)</a>
+                            <a href="/test">2022-11-22.(화)</a>
                             <br></br>
                             16:40
                         </td>
@@ -259,7 +259,7 @@ const RecruitmentGuide = () => {
                     <tr>
                         <td><FontAwesomeIcon icon={faUserGroup} /> 아이스메신저</td>
                         <td>
-                            [인천산업정보학교'박가희'] 
+                            [ 인천산업정보학교 '박가희' ] 
                             <br></br>
                             로 스캔 파일를 전송하여 접수
                             (이 방법은 교사가 직접해야 함)
@@ -267,10 +267,15 @@ const RecruitmentGuide = () => {
                     </tr>
                     <tr>
                         <td rowSpan={3}>
-                            <a href="/test">2022-11-22(화)</a>
+                            <a href="/test">2022-11-23.(수)
+                                <br></br>
+                                13:00
+                                <br></br>
+                                이후
+                            </a>
                         </td>
                         <td rowSpan={3}>
-                            면접(유선) 대상자 발표
+                            면접<br></br>대상자<br></br>발표
                         </td>
                         <td colSpan={2}>
                             <a href="http://sanup.icesc.kr">본교 홈페이지 <FontAwesomeIcon icon={faExternalLink} /></a> 게시
