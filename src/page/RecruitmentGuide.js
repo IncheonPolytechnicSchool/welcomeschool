@@ -27,12 +27,12 @@ const RecruitmentGuide = () => {
               <Table striped bordered hover className="vertical">
                  <thead className="tHead">
                     <tr> 
-                     <th colSpan={5}> 페이지 구성</th>
+                     <th colSpan={4}> 페이지 구성</th>
                     </tr>
                  </thead>
                 <tbody>
                     <tr>
-                        <td rowSpan={11}>2023학년도<br></br>인천산업정보학교<br></br>신입생 모집 요강</td>
+                        <td rowSpan={10}>2023학년도<br></br>인천산업정보학교<br></br>신입생 모집 요강</td>
                     <td colSpan={3}><a href="#tag1"><FontAwesomeIcon icon={faUserGroup} />모집학과 및 정원</a></td>
                     </tr>
                     <tr>
@@ -45,7 +45,7 @@ const RecruitmentGuide = () => {
                         <td colSpan={3}><a href="#tag4"><FontAwesomeIcon icon={faMapMarked} />모집지역</a></td>
                     </tr>
                     <tr>
-                        <td rowSpan={7}>전형일정<br></br>및<br></br>전형방법</td>
+                        <td rowSpan={6}>전형일정<br></br>및<br></br>전형방법</td>
                     </tr>
                     <tr>
                         <td rowSpan={3}>일반<br></br>전형</td>
@@ -67,20 +67,18 @@ const RecruitmentGuide = () => {
                     <tr>
                         <td>전형절차</td>
                     </tr>
-
-
                     <tr>
                         <td rowSpan={3}>지원자 유의사항</td>
                         <td>전형일정</td>
                     </tr>
                     <tr>
-                        <td colSpan={4}><FontAwesomeIcon icon={faExclamationCircle} />신입생 전형 시 유의사항</td>
+                        <td colSpan={3}><FontAwesomeIcon icon={faExclamationCircle} />신입생 전형 시 유의사항</td>
                     </tr>
                     <tr>
-                        <td colSpan={5}><a href ="#tag40"><FontAwesomeIcon icon={faQuestionCircle} />신입생 전형에 대한 문의</a></td>
+                        <td colSpan={3}><a href ="#tag40"><FontAwesomeIcon icon={faQuestionCircle} />신입생 전형에 대한 문의</a></td>
                     </tr>
                     <tr>
-                        <td colSpan={5}><a href="#tag50"><FontAwesomeIcon icon={faSchool} />지원자격 학교명단</a></td> 
+                        <td colSpan={4}><a href="#tag50"><FontAwesomeIcon icon={faSchool} />지원자격 학교명단</a></td> 
                     </tr>
                 </tbody>
   </Table>
