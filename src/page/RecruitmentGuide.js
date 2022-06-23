@@ -266,17 +266,17 @@ const RecruitmentGuide = () => {
                             </td>
                     </tr>
                     <tr>
-                        <td rowSpan={3}>
+                        <td rowSpan={4}>
                             <a href="/test">2022-11-23.(수)</a>
                                 <br></br>
                                 13:00
                                 <br></br>
                                 이후
                         </td>
-                        <td rowSpan={3}>
+                        <td rowSpan={4}>
                             면접<br></br>대상자<br></br>발표
                         </td>
-                        <td>
+                        <td colSpan={2}>
                             13:00 이후 아래 여러가지 방법으로 공지    
                         </td>
                     </tr>
