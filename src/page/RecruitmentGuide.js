@@ -32,21 +32,33 @@ const RecruitmentGuide = () => {
                  </thead>
                 <tbody>
                     <tr>
-                        <td rowSpan={5}>2023학년도<br></br>인천산업정보학교<br></br>신입생 모집 요강</td>
-                    <td><a href="#tag1"><FontAwesomeIcon icon={faUserGroup} />모집학과 및 정원</a></td>
+                        <td rowSpan={11}>2023학년도<br></br>인천산업정보학교<br></br>신입생 모집 요강</td>
+                    <td colSpan={3}><a href="#tag1"><FontAwesomeIcon icon={faUserGroup} />모집학과 및 정원</a></td>
                     </tr>
                     <tr>
-                        <td><a href="#tag2"><FontAwesomeIcon icon={faFile} />지원자격</a></td>
+                        <td colSpan={3}><a href="#tag2"><FontAwesomeIcon icon={faFile} />지원자격</a></td>
                     </tr>
                     <tr>
-                        <td><a href="#tag3"><FontAwesomeIcon icon={faCalendar} />위탁교육기간</a></td>
+                        <td colSpan={3}><a href="#tag3"><FontAwesomeIcon icon={faCalendar} />위탁교육기간</a></td>
                     </tr>
                     <tr>
-                        <td><a href="#tag4"><FontAwesomeIcon icon={faMapMarked} />모집지역</a></td>
+                        <td colSpan={3}><a href="#tag4"><FontAwesomeIcon icon={faMapMarked} />모집지역</a></td>
                     </tr>
                     <tr>
-                        <td>전형일정(일반전형)</td>
+                        <td rowSpan={6}>전형일정 및 전형방법</td>
                     </tr>
+                    <tr>
+                        <td rowSpan={3}>일반전형</td>
+                        <td>전형일정</td>
+                    </tr>
+                    <tr>
+                        <td>전형방법</td>
+                    </tr>
+                    <tr>
+                        <td>전형절차</td>
+                    </tr>
+
+
                     <tr>
                         <td rowSpan={3}>지원자 유의사항</td>
                         <td>전형일정</td>
@@ -194,7 +206,7 @@ const RecruitmentGuide = () => {
           <br></br>
           <Row>
               <Col>
-              <h1><a name="tag30"></a><a href="#tag0"><FontAwesomeIcon icon={faCalendar} />모집일정(일반전형)</a></h1>
+              <h1><a name="tag30"></a><a href="#tag0"><FontAwesomeIcon icon={faCalendar} />전형일정(일반전형)</a></h1>
               <Table striped bordered hover className="vertical">
                  <thead className="tHead">
                     <tr>
