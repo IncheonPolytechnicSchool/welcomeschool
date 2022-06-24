@@ -29,8 +29,8 @@ const RecruitmentGuide = () => {
                     </tr>
                  </thead>
                 <tbody>
-                <td colspan={4}><a href="https://drive.google.com/uc?export=download&id=1XwkfUOwkUx6MFNL2xrrEjfvFfv9hQg3">
-                    <FontAwesomeIcon icon={faDownload} /> [입교지원서]<br></br>워드 파일(docx)</a></td>
+                <td colspan={4}><a href="https://drive.google.com/uc?export=download&id=1XwkfUOwkUx6MFNL2xrrEjfvFfv9hQg3j">
+                    <FontAwesomeIcon icon={faDownload} /> [입교지원서]<br></br>한글 파일(hwp)</a></td>
                     <tr>
                         <td rowSpan={11}>2023학년도<br></br>인천산업정보학교<br></br>신입생 모집 요강</td>
                         <td colSpan={3}><a href="#tag1"><FontAwesomeIcon icon={faUserGroup} />모집학과 및 정원</a></td>
@@ -83,6 +83,24 @@ const RecruitmentGuide = () => {
                 </tbody>
   </Table>
               </Col>
+          </Row>
+          <br></br>
+          <Row>
+            <Col>
+            <h1><a name="tag4"></a><a href="#tag0"><FontAwesomeIcon icon={faMapMarked}/>모집지역</a></h1>
+            <Table striped bordered hover className="vertical">
+                <thead className="tHead">
+                    <tr>
+                     <th>[일반전형] & [추가전형]</th>
+                    </tr>
+                 </thead>
+                <tbody>
+                    <tr>
+                        <td>인천광역시</td>
+                    </tr>
+                </tbody>
+              </Table>
+            </Col>
           </Row>
           <br></br>
           <Row>
