@@ -1,10 +1,8 @@
-
-
 import React from 'react'
 import { Container, Row, Col, Table } from "react-bootstrap";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCalendar, faCoffee, faExclamationCircle, faFile, faMagicWandSparkles, faMapMarked, faQuestionCircle, faSchool, faUtensils } from '@fortawesome/free-solid-svg-icons'
+import { faCalendar, faCoffee, faDownload, faExclamationCircle, faFile, faMagicWandSparkles, faMapMarked, faQuestionCircle, faSchool, faUtensils } from '@fortawesome/free-solid-svg-icons'
 import { faCamera } from '@fortawesome/free-solid-svg-icons'
 import { faPaintBrush } from '@fortawesome/free-solid-svg-icons';
 import { faDog } from '@fortawesome/free-solid-svg-icons';
@@ -31,9 +29,11 @@ const RecruitmentGuide = () => {
                     </tr>
                  </thead>
                 <tbody>
+                <td colspan={4}><a href="https://drive.google.com/uc?export=download&id=1XwkfUOwkUx6MFNL2xrrEjfvFfv9hQg3">
+                    <FontAwesomeIcon icon={faDownload} /> [입교지원서]<br></br>워드 파일(docx)</a></td>
                     <tr>
                         <td rowSpan={11}>2023학년도<br></br>인천산업정보학교<br></br>신입생 모집 요강</td>
-                    <td colSpan={3}><a href="#tag1"><FontAwesomeIcon icon={faUserGroup} />모집학과 및 정원</a></td>
+                        <td colSpan={3}><a href="#tag1"><FontAwesomeIcon icon={faUserGroup} />모집학과 및 정원</a></td>
                     </tr>
                     <tr>
                         <td colSpan={3}><a href="#tag2"><FontAwesomeIcon icon={faFile} />지원자격</a></td>
