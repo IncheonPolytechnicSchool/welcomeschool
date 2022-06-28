@@ -29,11 +29,8 @@ const SchoolPhoto = () => {
                         <td rowSpan={5}>실습동</td>
                     </tr>
                     <tr>
-                        <td rowSpan={2}><a href="#tag2">3층</a></td>
+                        <td><a href="#tag2">3층</a></td>
                         <td>시각디자인과, <a href="#tag11"><FontAwesomeIcon icon={faCamera} />사진영상실</a>, 미디어제작실, <a href="#tag12"><FontAwesomeIcon icon={faBook} />도서관</a>, 강당, <FontAwesomeIcon icon={faChalkboardTeacher} />제3교무실</td>
-                    </tr>
-                    <tr>
-                        <td><FontAwesomeIcon icon={faDumbbell} />체력단련실( <FontAwesomeIcon icon={faBicycle} /> )</td>
                     </tr>
                     <tr>
                         <td><a href="#tag3">2층</a></td>
@@ -369,17 +366,6 @@ const SchoolPhoto = () => {
             <Carousel.Caption>
                 <h3>실습동-3층</h3>
                 <p>복도</p>
-            </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item interval ={3000}>
-            <img
-                className="d-block w-100"
-                src="https://drive.google.com/uc?export=view&id=1Ze9864s_L0VhCAFBEGhxYYZJuH_HJp16"
-                alt="First Slide"
-                />
-            <Carousel.Caption>
-                <h3>실습동-3층</h3>
-                <p>체력단련실</p>
             </Carousel.Caption>
         </Carousel.Item>
          </Carousel>
