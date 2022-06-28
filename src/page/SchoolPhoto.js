@@ -26,7 +26,7 @@ const SchoolPhoto = () => {
                         </td>
                     </tr>
                     <tr>
-                        <td rowSpan={5}>실습동</td>
+                        <td rowSpan={4}>실습동</td>
                     </tr>
                     <tr>
                         <td><a href="#tag2">3층</a></td>
