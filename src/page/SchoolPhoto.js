@@ -83,10 +83,7 @@ const SchoolPhoto = () => {
                         <td>
                             사진<br></br>영상<br></br>8반
                         </td>
-                        <td>
-                            <FontAwesomeIcon icon={faDumbbell} /><br></br>체력<br></br>단련실
-                        </td>
-                        <td colSpan={2}>
+                        <td colSpan={3}>
                             <a href="#tag12"><FontAwesomeIcon icon={faBook} />도서관</a>
                         </td>
                     </tr>
